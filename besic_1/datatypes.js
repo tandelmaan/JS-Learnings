@@ -62,3 +62,38 @@ console.log(typeof val2) // Number
 // "33abc" => Nan
 // true => 1 , false => 0
 // "" => false , "maan" => true
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId);
+
+// const bigNumber = 3456543576654356754n
+
+
+
+// ********** Stack and Heap :  JavaScript engines (V8, SpiderMonkey, etc.) manage memory using two distinct regions:
+// Stack : We get Copy of that Value or Variable
+// Heap : We get reference of That Variables 
+// Copy by Value vs Copy by Reference 
+
+// 	            Stack	                                |    Heap
+// Stores	    Primitives, function calls, references	|    Objects, arrays, functions
+// Structure	LIFO (Last In, First Out)	            |    Unstructured, large pool
+// Size	        Fixed, small	                        |    Dynamic, large
+// Speed	    Very fast	                            |    Slower (needs lookup)
+// Allocation	Automatic (static)	                    |    Manual-ish (dynamic, GC-managed)
+
+// Primitives (stack) → copied BY VALUE 
+let n1 = 10;
+let n2 = x;   // y gets a completely independent COPY of the value
+n2 = 20;
+console.log(n1); // 10 — unaffected
+
+
+// Objects (heap) → copied BY REFERENCE
+
+let obj1 = { count: 10 };
+let obj2 = obj1;   // obj2 points to the SAME heap location as obj1
+obj2.count = 20;
+console.log(obj1.count); // 20 — obj1 is affected too!
