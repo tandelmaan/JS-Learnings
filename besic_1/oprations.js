@@ -78,7 +78,7 @@ console.log(second) // space
 
 const gridConfig1 = ''
 const  excelName = gridConfig1 ?? 'defalt'; // only specify null and Undefined
-const  excelName1 = gridConfig1 || 'defalt'; // only specify null and Undefined
+const  excelName1 = gridConfig1 || 'defalt'; // only specify null and Undefined & ''(empty parentheses)
 console.log(excelName) // space 
 console.log(excelName1) // defalt 
 

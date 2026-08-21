@@ -86,7 +86,7 @@ console.log(id === anotherId);
 
 // Primitives (stack) → copied BY VALUE 
 let n1 = 10;
-let n2 = x;   // y gets a completely independent COPY of the value
+let n2 = n1;   // y gets a completely independent COPY of the value
 n2 = 20;
 console.log(n1); // 10 — unaffected
 
