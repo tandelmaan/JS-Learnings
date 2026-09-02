@@ -1,0 +1,10 @@
+// first git clone https://github.com/username/my-project.git
+// git status 
+git clone <repo-url>
+cd <repo-folder>
+
+# Make changes
+
+git add .
+git commit -m "Your message"
+git push origin main

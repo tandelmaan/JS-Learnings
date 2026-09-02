@@ -4,7 +4,7 @@
 // 7 primitives DataTypes : Number, String, Boolean, undefined, null, BigInt, Symbol
 let note; // Undefined 
 let age = 22 // Number 
-let name = "Tandel Maan" // String
+let name = "Tandel Rahul" // String
 let isNull = null // null
 let isMale = true // boolean 
 let bigNumber = 123n // BigInt 
