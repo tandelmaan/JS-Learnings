@@ -1,7 +1,7 @@
 // For Loops 
 
 // for (let i = 1; i <= 10; i++) {
-//     console.log("maan " + i)
+//     console.log("mxxn " + i)
 // }
 
 // let coding = ["Js", "Python", "Cpp"]
@@ -10,7 +10,7 @@
 //     console.log(coding[i])
 // }
 
-// let teamMember = ["Maan", "Neel", "Raj"]
+// let teamMember = ["mxxn", "Neel", "Raj"]
 // for (let i = 0; i < teamMember.length; i++) {
 //     console.log(`Team ${i} : ${teamMember[i]}`)
 //     for (j = 1; j <= 3; j++) {
@@ -50,7 +50,7 @@
 // }
 
 // const obj1 = {
-//     name: "maan",
+//     name: "mxxn",
 //     age: 12,
 //     address: {
 //         city: "nvs",

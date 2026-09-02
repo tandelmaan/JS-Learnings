@@ -8,3 +8,59 @@ cd <repo-folder>
 git add .
 git commit -m "Your message"
 git push origin main
+
+
+// Learnings for JS
+
+
+Introduction to JavaScript & how to run it (browser console / VS Code) : Done
+Variables (var, let, const) : Done
+Data Types (string, number, boolean, null, undefined, symbol, bigint) : Done
+Operators (arithmetic, comparison, logical, assignment) : Done
+Type Conversion & Coercion : Done
+Conditional Statements (if-else, switch) : Done
+Loops (for, while, do-while, for-in, for-of) : Done
+Functions (declaration, expression, parameters, return) : Done
+Arrays & Array Methods (push, pop, map, filter, reduce, etc.) : Done
+Strings & String Methods : Done
+Objects & Object Methods : Done
+Template Literals : Done
+
+Intermediate
+13. Scope (global, function, block) & Hoisting
+14. Arrow Functions
+15. Default & Rest Parameters, Spread Operator
+16. Destructuring (arrays & objects)
+17. The this keyword
+18. Higher-Order Functions & Callbacks
+19. Closures
+20. IIFE (Immediately Invoked Function Expressions)
+21. DOM Manipulation (selecting, creating, updating elements)
+22. Events & Event Listeners
+23. Event Bubbling & Delegation
+24. JSON (parse & stringify)
+25. Error Handling (try-catch-finally, throw)
+
+Advanced
+26. Asynchronous JS: Callbacks
+27. Promises
+28. Async/Await
+29. Fetch API & AJAX
+30. Event Loop, Call Stack, Microtasks/Macrotasks
+31. ES6+ Modules (import/export)
+32. Prototypes & Prototypal Inheritance
+33. Classes (ES6 class syntax, inheritance, static methods)
+34. call, apply, bind
+35. Local Storage & Session Storage
+36. Debouncing & Throttling
+37. Map, Set, WeakMap, WeakSet
+38. Generators & Iterators
+39. Design Patterns in JS (module, singleton, observer)
+40. Basics of Web APIs (setTimeout, setInterval, Geolocation, etc.)
+
+After This (Optional Next Steps)
+
+Git & GitHub basics
+TypeScript fundamentals
+A frontend framework (React/Angular/Vue)
+Node.js basics

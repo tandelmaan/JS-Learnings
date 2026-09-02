@@ -3,7 +3,7 @@
 // Simple Functions 
 
 function printMyName(){
-    console.log("Maan Tandel")
+    console.log("mxxn Tandel")
 }
 printMyName()
 
@@ -47,7 +47,7 @@ function sumoffive(...numbers){
     }   
     return total
 }
-console.log(sum(1,2,3,4))
+console.log('Total',sumoffive(1,2,3,4))
 
 // Callback Functions : Functions passed as arguments to another function.
 
@@ -55,7 +55,7 @@ function name1(func2) {
     return `Tandel ${func2}`
 }
 function name2() {
-    return "Maan"
+    return "mxxn"
 }
 console.log(name1(name2()))
 
@@ -68,7 +68,7 @@ setTimeout(function() {
 }, 1000);
 
 const obj1 = {
-    name:"Maan",
+    name:"mxxn",
     func1 : function(){
         return `Name is : ${this.name}`
     }
@@ -76,7 +76,7 @@ const obj1 = {
 console.log(obj1.func1())
 
 const obj12 = {
-    name:"Maan",
+    name:"mxxn",
     func1 : ()=>{
         return `Name is : ${this.name}`
     }

@@ -61,7 +61,7 @@ console.log(typeof val2) // Number
 // "33" => 33
 // "33abc" => Nan
 // true => 1 , false => 0
-// "" => false , "maan" => true
+// "" => false , "mxxn" => true
 
 const id = Symbol('123')
 const anotherId = Symbol('123')

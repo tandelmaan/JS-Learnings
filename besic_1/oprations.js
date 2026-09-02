@@ -12,7 +12,7 @@ let negValue = -value;
 // console.log(2%3);
 
 let str1 = "hello";
-let str2 = " Maan Tandel";
+let str2 = " mxxn Tandel";
 
 let str3 = str1 + str2;
 // console.log(str3);
@@ -26,7 +26,7 @@ let gameCounter = 100;
 for (let i = 1; i <= 10; i++) {
   ++gameCounter;
 }
-// console.log(gameCounter);
+console.log(gameCounter);
 
 let a = 10,
   b = 3;
@@ -67,7 +67,7 @@ function sum(...nums) {
 sum(1, 2, 3); // 6
 
 widget = {
-  name: "Maan",
+  name: "mxxn",
   age: 12,
 };
 const { data, gridConfig } = widget.name; // object destructuring
@@ -77,8 +77,8 @@ console.table([first, second]); // 10,20
 console.log(second) // space 
 
 const gridConfig1 = ''
-const  excelName = gridConfig1 ?? 'defalt'; // only specify null and Undefined
-const  excelName1 = gridConfig1 || 'defalt'; // only specify null and Undefined & ''(empty parentheses)
+const excelName = gridConfig1 ?? 'defalt'; // only specify null and Undefined
+const excelName1 = gridConfig1 || 'defalt'; // only specify null and Undefined & ''(empty parentheses)
 console.log(excelName) // space 
 console.log(excelName1) // defalt 
 

@@ -1,20 +1,20 @@
 const users = [
-    { name: "maan", age: 22, address: "Balaji" },
+    { name: "mxxn", age: 22, address: "Balaji" },
     { name: "Asmat", age: 21, address: "ponsara" }
 ]
-// console.log(users.find(user => user.age > 21))
+console.log(users.find(user => user.age > 21))
 
 // Array sorting 
 
 const DangerArray = [5, 4, 8, 5, 7, 2, 8, 6, 2, 8, 5]
-// console.log([...new Set(DangerArray)].sort((a, b) => a - b))
+console.log([...new Set(DangerArray)].sort((a, b) => a - b))
 
 const arr = [10, 20, 30];
 arr.forEach(value => {
     value = value * 10
-    // console.log(value);
+    console.log(value);
 });
-// console.log(arr)
+console.log(arr)
 
 // Sum of array 
 

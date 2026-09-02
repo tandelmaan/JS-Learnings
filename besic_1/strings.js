@@ -26,10 +26,10 @@ str.endsWith("World");   // true
 const str2 = "Royal Mxxn"
 console.log(str2) // Royal Mxxn
 console.log(str2.trim()) // Royal Mxxn
-console.log(str2.slice('0', '6')) // Royal 
+console.log(str2.slice('0', '5')) // Royal 
 console.log(str2.slice(-6)) // l Mxxn
 console.log(str2.split(" ")) // ["Royal","mxxn"]
 console.log(str2.split("")) // ["R","o","y"...]
-console.log(str2.replace('Royal',"Maan")) // Maan Mxxn
+console.log(str2.replace('Royal',"mxxn")) // mxxn Mxxn
 console.log(str2.replaceAll('a',"x")) // Royxl Mxxn
 console.log(str2.charAt(2).toUpperCase()) // Y
