@@ -27,10 +27,10 @@ Objects & Object Methods : Done
 Template Literals : Done
 
 Intermediate
-13. Scope (global, function, block) & Hoisting
-14. Arrow Functions
-15. Default & Rest Parameters, Spread Operator
-16. Destructuring (arrays & objects)
+13. Scope (global, function, block) & Hoisting : Done
+14. Arrow Functions : Done
+15. Default & Rest Parameters, Spread Operator :  Done
+16. Destructuring (arrays & objects) : Not Required 
 17. The this keyword
 18. Higher-Order Functions & Callbacks
 19. Closures
