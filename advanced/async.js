@@ -145,4 +145,154 @@ async function showUser() {
     console.log(user);
 }
 
-showUser()
+// showUser()
+
+// Deepseek Learinigngs 
+
+// Promises : A Promise is an object representing the eventual completion or failure of an asynchronous operation.
+
+// States of Promise
+// Pending: Initial state, neither fulfilled nor rejected
+
+// Fulfilled: Operation completed successfully
+
+// Rejected: Operation failed
+
+// const myPromise = new Promise((resolve, reject) => {
+//     const maan = true;
+//     if (maan) {
+//         setTimeout(() => {
+//             resolve("Done")
+//         }, 2000);
+//     } else {
+//         reject("Pending")
+//     }
+// })
+// myPromise.then((res)=>{
+//     console.log(res)
+// }).catch((err)=>{
+//     console.log(err)
+// }).finally(()=>{
+//     console.log("all Done")
+// })
+
+// function fetchUserData(userId) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             if (userId > 0) {
+//                 resolve({
+//                     id: userId,
+//                     name: "John Doe",
+//                     email: "john@example.com"
+//                 });
+//             } else {
+//                 reject(new Error("Invalid user ID"));
+//             }
+//         }, 2000);
+//     });
+// }
+
+// // Using the promise
+// fetchUserData(1)
+//     .then(user => {
+//         console.log("User found:", user);
+//         return user.email;
+//     })
+//     .then(email => console.log("Email:", email))
+//     .catch(error => console.error("Error:", error.message));
+
+// function getUser(userId) {
+//     return new Promise(resolve => {
+//         setTimeout(() => resolve({ id: userId, name: "Alice" }), 1000);
+//     });
+// }
+
+// function getPosts(userId) {
+//     return new Promise(resolve => {
+//         setTimeout(() => resolve(["Post 1", "Post 2"]), 1000);
+//     });
+// }
+
+// function getComments(post) {
+//     return new Promise(resolve => {
+//         setTimeout(() => resolve(["Comment 1", "Comment 2"]), 1000);
+//     });
+// }
+
+// // Chaining
+// getUser(1)
+//     .then(user => {
+//         console.log("User:", user);
+//         return getPosts(user.id);
+//     })
+//     .then(posts => {
+//         console.log("Posts:", posts);
+//         return getComments(posts[0]);
+//     })
+//     .then(comments => {
+//         console.log("Comments:", comments);
+//     })
+//     .catch(error => console.error("Error:", error));
+
+
+// Async/Await : Async/await is syntactic sugar built on Promises, making asynchronous code look and behave like synchronous code .
+
+// Async function always returns a Promise
+
+// Async function always returns a Promise
+
+
+
+// Simulated API functions
+function fetchUser(id) {
+    return new Promise(resolve => {
+        setTimeout(() => resolve({ id, name: 'John' }), 3000);
+    });
+}
+
+function fetchUserPosts(userId) {
+    return new Promise(resolve => {
+        setTimeout(() => resolve(['Post 1', 'Post 2']), 1000);
+    });
+}
+
+function fetchPostComments(postTitle) {
+    return new Promise(resolve => {
+        setTimeout(() => resolve(['Comment A', 'Comment B']), 1000);
+    });
+}
+
+// Using async/await
+async function getUserData(userId) {
+    try {
+        // Sequential execution
+        const user = await fetchUser(userId);
+        console.log('User:', user);
+        
+        const posts = await fetchUserPosts(user.id);
+        console.log('Posts:', posts);
+        
+        const comments = await fetchPostComments(posts[0]);
+        console.log('Comments:', comments);
+        
+        return { user, posts, comments };
+    } catch (error) {
+        console.error('Error fetching data:', error);
+        throw error;
+    }
+}
+getUserData(1)
+
+// Parallel execution with async/await
+// async function getParallelData(userId) {
+//     try {
+//         const [user, posts] = await Promise.all([
+//             fetchUser(userId),
+//             fetchUserPosts(userId)
+//         ]);
+        
+//         return { user, posts };
+//     } catch (error) {
+//         console.error('Error:', error);
+//     }
+// }
