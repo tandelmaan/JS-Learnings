@@ -109,7 +109,7 @@ const {
   email
 } = response;
 
-console.log(name, email);
+// console.log(name, email);
 
 // Q1: Difference between Rest and Spread?
 
