@@ -1,0 +1,12 @@
+// Solved Querys 
+
+// Find Duplicate Number Of Arrays : Done
+// Find the Factorial Numer  : Done
+// Find Maximum & Minimum Number Value By Reduce Functions : Done
+// Find Maximum & Minimum Number Value By Math Function Method : Done
+// Find The Missing Element in Array : Done
+// Find Even and Odd Numbers From Array : Done
+// Find Sum of Array : Done
+// Find the Second Largest Values : Done
+// Find And Filter Method Diffrence : Done
+// make star pattern simple : Done
