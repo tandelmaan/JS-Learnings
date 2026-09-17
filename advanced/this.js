@@ -40,7 +40,7 @@ user.greet(); // "Royal" — this = user (the object left of the dot)mode: windo
 // Databases
 
 const user1 = {
-  name: "Maan",
+  name: "Raj",
   age: 25
 };
 
@@ -49,7 +49,7 @@ const jsonData = JSON.stringify(user1);
 console.log(typeof jsonData);
 
 const jsonData1 =
-  '{"name":"Maan","age":25}';
+  '{"name":"Raj","age":25}';
 
 const user2 = JSON.parse(jsonData1);
 

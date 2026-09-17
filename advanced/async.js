@@ -47,17 +47,17 @@
 //   console.log("Goodbye");
 // }
 
-// greet("Maan", sayBye);
+// greet("Raj", sayBye);
 // Callback with Anonymous Function
 // function workingornot(callback) {
-//     console.log("Maan is Working...")
+//     console.log("Raj is Working...")
 //     setTimeout(() => {
 //         console.log('Shreya visible')
 //         callback();
 //     }, 5000);
 // }
 // function khatam(){
-//     console.log("Maan Work is Over")
+//     console.log("Raj Work is Over")
 // }
 // workingornot(khatam)
 
@@ -79,14 +79,14 @@
 
 // A Promise is an object representing the eventual success or failure of an asynchronous operation.
 
-// const maanpromise = new Promise((resolve, reject) => {
+// const Rajpromise = new Promise((resolve, reject) => {
 //     if (true) {
 //         resolve("Task Complete")
 //     } else {
 //         reject("Task Still Pending")
 //     }
 // })
-// maanpromise.then(res => {
+// Rajpromise.then(res => {
 //     console.log(res)
 // }).catch(() => {
 //     console.log(err)
@@ -99,7 +99,7 @@
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
 //             resolve({
-//                 user: "Maan",
+//                 user: "Raj",
 //                 id: 22
 //             })
 //         }, 2000);
@@ -136,7 +136,7 @@
 // 
 function getUser() {
     return setTimeout(() => {
-        return "Maan"
+        return "Raj"
     }, 5000);
 }
 async function showUser() {
@@ -159,8 +159,8 @@ async function showUser() {
 // Rejected: Operation failed
 
 // const myPromise = new Promise((resolve, reject) => {
-//     const maan = true;
-//     if (maan) {
+//     const Raj = true;
+//     if (Raj) {
 //         setTimeout(() => {
 //             resolve("Done")
 //         }, 2000);

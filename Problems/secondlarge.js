@@ -11,7 +11,7 @@ console.log('secondLarge: ', secondLarge); // 8
 // Find And Filter Method Diffrence 
 
 const arr2 = [
-    { name: "Maan", age: 12 },
+    { name: "Raj", age: 12 },
     { name: "Raj", age: 21 },
     { name: "Limbu", age: 18 },
     { name: "Yash", age: 19 },
