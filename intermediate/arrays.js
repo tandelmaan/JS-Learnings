@@ -1,5 +1,5 @@
 const users = [
-    { name: "mxxn", age: 22, address: "Balaji" },
+    { name: "Rxxn", age: 22, address: "Balaji" },
     { name: "Asmat", age: 21, address: "ponsara" }
 ]
 console.log(users.find(user => user.age > 21))

@@ -12,7 +12,7 @@ let negValue = -value;
 // console.log(2%3);
 
 let str1 = "hello";
-let str2 = " mxxn Tandel";
+let str2 = " Rxxn Tandel";
 
 let str3 = str1 + str2;
 // console.log(str3);
@@ -67,7 +67,7 @@ function sum(...nums) {
 sum(1, 2, 3); // 6
 
 widget = {
-  name: "mxxn",
+  name: "Rxxn",
   age: 12,
 };
 const { data, gridConfig } = widget.name; // object destructuring

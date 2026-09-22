@@ -1,4 +1,4 @@
-let userName = "Mxxn"
+let userName = "Rxxn"
 function greet() {
   console.log(userName)
 }
@@ -32,21 +32,21 @@ outer(); // Outer Global
 // Traditional Function
 
 function greet(name) {
-  return `${name} Mxxn`
+  return `${name} Rxxn`
 }
 console.log(greet('Tandel'))
 
 // Arrow Function 
 
 const greet1 = (name) => {
-  return `${name} Mxxn`
+  return `${name} Rxxn`
 }
 console.log(greet1('Tandel'))
 
 
 // Returning Objects 
-// const getUser = () => { name: "Mxxn" }; // Wrong
-const getUser = () => ({ name: "Mxxn" }); // Right
+// const getUser = () => { name: "Rxxn" }; // Wrong
+const getUser = () => ({ name: "Rxxn" }); // Right
 
 const array1 = [1, 2, 3, 4, 5]
 const res1 = array1.map((num) => num * 2)
@@ -61,13 +61,13 @@ console.log('nums: ', nums); // [ 1, 2, 3, 4, 5 ]
 
 
 const obj1 = {
-  name: "Mxxn Tandel",
+  name: "Rxxn Tandel",
   func1: function () {
     return `${this.name} Are You There`
   }
 }
 const obj2 = {
-  name: "Mxxn Tandel",
+  name: "Rxxn Tandel",
   func1: () => {
     return `${this.name} Are you hear`
   }
@@ -87,7 +87,7 @@ function order(customer, ...items) {
   console.log(items);
 }
 
-order("Mxxn", "Laptop", "Mouse");
+order("Rxxn", "Laptop", "Mouse");
 
 // Swap Values 
 let a = 10;
@@ -100,8 +100,8 @@ console.log(a, b);
 
 const response = {
   id: 1,
-  name: "Mxxn",
-  email: "Mxxn@gmail.com"
+  name: "Rxxn",
+  email: "Rxxn@gmail.com"
 };
 
 const {

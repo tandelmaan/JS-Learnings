@@ -3,7 +3,7 @@
 // Simple Functions 
 
 function printMyName(){
-    console.log("mxxn Tandel")
+    console.log("Rxxn Tandel")
 }
 printMyName()
 
@@ -55,7 +55,7 @@ function name1(func2) {
     return `Tandel ${func2}`
 }
 function name2() {
-    return "mxxn"
+    return "Rxxn"
 }
 console.log(name1(name2()))
 
@@ -68,7 +68,7 @@ setTimeout(function() {
 }, 1000);
 
 const obj1 = {
-    name:"mxxn",
+    name:"Rxxn",
     func1 : function(){
         return `Name is : ${this.name}`
     }
@@ -76,7 +76,7 @@ const obj1 = {
 console.log(obj1.func1())
 
 const obj12 = {
-    name:"mxxn",
+    name:"Rxxn",
     func1 : ()=>{
         return `Name is : ${this.name}`
     }
